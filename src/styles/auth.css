@@ -1,0 +1,168 @@
+:root {
+  --dark-color: #b0b5c0;
+  --light-color: #ffffff;
+}
+
+html {
+  --body-color: var(--light-color);
+  --sidebar-color: var(--light-color);
+  background-color: var(--body-color);
+  height: 100%;
+  padding: 0;
+}
+
+html.logged-out #loading,
+html.logged-out body {
+  background: linear-gradient(180deg, #eff1f4 0, #fff 50%);
+  margin-left: 0;
+}
+
+html.dark.logged-out #loading,
+html.dark.logged-out body {
+  background: linear-gradient(180deg, #2c2d3c 0, #191a23 50%);
+}
+
+#root,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+@keyframes logoBackgroundPulse {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.jwBcHh {
+  animation: 0.3s ease 0.2s 1 normal both running Rmehe;
+  margin: 284.5px auto auto;
+}
+
+@-webkit-keyframes Rmehe {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0px, -10px px);
+    -ms-transform: translate(0px, -10px px);
+    transform: translate(0px, -10px px);
+    animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -webkit-animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes Rmehe {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0px, -10px px);
+    -ms-transform: translate(0px, -10px px);
+    transform: translate(0px, -10px px);
+    animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -webkit-animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+
+.lbJlVr {
+  -webkit-box-align: center;
+}
+
+.eVXLHu {
+  transform: none;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.iAScsE {
+  flex: initial;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+
+.ehUqei {
+  font-style: normal;
+  line-height: normal;
+  text-align: left;
+  color: rgb(60, 65, 73);
+  font-size: var(--font-size-title3);
+  font-weight: 500;
+  letter-spacing: -0.01rem;
+}
+
+.hUgkGA {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin: 0px;
+  border-radius: 4px;
+  font-weight: 500;
+  line-height: normal;
+  transition-property: border, background-color, color, opacity;
+  transition-duration: var(--speed-highlightFadeOut);
+  user-select: none;
+  app-region: no-drag;
+  position: relative;
+  border: 1px solid rgb(110, 121, 214);
+  box-shadow: rgba(0, 0, 0, 0.082) 0px 1px 2px;
+  background-color: rgb(110, 121, 214);
+  color: rgb(255, 255, 255);
+  min-width: 32px;
+  height: 32px;
+  padding: 0px 14px;
+  font-size: var(--font-size-small);
+}
+
+.jIDgHF {
+  height: 48px;
+  font-size: var(--font-size-small);
+  background: rgb(87, 91, 199);
+  width: 336px;
+}
+
+.cEslws {
+  margin-right: 12px;
+  width: 14px;
+}
+
+.hUgkGA:not(:disabled):hover {
+  background-color: rgb(92, 103, 199);
+}
+
+.hUgkGA:hover {
+  transition-duration: var(--speed-highlightFadeIn);
+}
